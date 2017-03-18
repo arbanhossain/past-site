@@ -434,11 +434,11 @@ h6,
   font-family: 'Oswald', sans-serif;
 }
 #ext_menu-1 .link {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 #ext_menu-1 .dropdown-item,
 #ext_menu-1 .nav-dropdown-sm .link {
-  font-size: 1.516rem;
+  font-size: 1.624rem;
 }
 #ext_menu-1 .link:hover,
 #ext_menu-1 .dropdown-item:hover,
@@ -560,5 +560,74 @@ h6,
   font-size: 22px;
 }
 #footer1-8 P {
+  color: #7c706b;
+}
+
+
+#ext_menu-e .hide-buttons .nav-btn {
+  display: none !important;
+}
+#ext_menu-e .navbar-caption {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+}
+#ext_menu-e .navbar-toggler {
+  color: #e25041;
+}
+#ext_menu-e .close-icon::before,
+#ext_menu-e .close-icon::after {
+  background-color: #e25041;
+}
+#ext_menu-e .link,
+#ext_menu-e .dropdown-item {
+  color: #e25041;
+  font-family: 'Oswald', sans-serif;
+}
+#ext_menu-e .link {
+  font-size: 1.4rem;
+}
+#ext_menu-e .dropdown-item,
+#ext_menu-e .nav-dropdown-sm .link {
+  font-size: 1.516rem;
+}
+#ext_menu-e .link:hover,
+#ext_menu-e .dropdown-item:hover,
+#ext_menu-e .link:focus,
+#ext_menu-e .dropdown-item:focus {
+  color: #c0a375;
+}
+#ext_menu-e .link[aria-expanded="true"],
+#ext_menu-e .dropdown-menu {
+  background: #e6e6e6;
+}
+#ext_menu-e .nav-dropdown-sm .link:focus,
+#ext_menu-e .nav-dropdown-sm .link:hover,
+#ext_menu-e .nav-dropdown-sm .dropdown-item:focus,
+#ext_menu-e .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#ext_menu-e .navbar,
+#ext_menu-e .nav-dropdown-sm,
+#ext_menu-e .nav-dropdown-sm .link[aria-expanded="true"],
+#ext_menu-e .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#ext_menu-e .bg-color.transparent .link {
+  color: #e25041;
+  transition: none;
+}
+#ext_menu-e .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#ext_menu-e .bg-color.transparent.opened .link:hover,
+#ext_menu-e .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#ext_menu-e .link[aria-expanded="true"],
+#ext_menu-e .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#footer1-f P {
   color: #7c706b;
 }
