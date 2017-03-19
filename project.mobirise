@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Portfolio",
-    "currentPage": "me.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -238,7 +238,7 @@
           "_anchor": "footer1-8",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "1",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -248,7 +248,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with Mobirise. Powerfully presented by Github."
+          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
         }
       ]
     },
@@ -500,7 +500,7 @@
           "_anchor": "footer1-8",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "1",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -510,7 +510,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
+          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
         }
       ]
     },
@@ -533,7 +533,7 @@
           "_anchor": "footer1-f",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "1",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -543,7 +543,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with Mobirise. Powerfully presented by Github."
+          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
         },
         {
           "_tags": [
@@ -865,7 +865,7 @@
           "_anchor": "footer1-8",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "1",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -875,7 +875,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
+          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
         },
         {
           "_inherit": "menu",
@@ -1090,7 +1090,7 @@
           "_anchor": "footer1-x",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "1",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -1100,7 +1100,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with Mobirise. Powerfully presented by Github."
+          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
         }
       ]
     }
