@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "illustration.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -26,7 +26,7 @@
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/pihvoll1.jpg",
     "noImageResize": "true",
-    "path": "file:///E:/ENJOY%20ARBAN'S%20WORLD/Visual/mobirise",
+    "path": "@PROJECT_PATH@/mobirise",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -323,21 +323,21 @@
               "font-size": "48px"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#404040"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#404040"
             },
             ".link, .dropdown-item": {
-              "color": "#000000",
+              "color": "#404040",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
               "font-family": "'Roboto Slab', serif"
             },
             ".link": {
-              "font-size": "1.4rem"
+              "font-size": "1.1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.516rem"
+              "font-size": "1.191rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -352,7 +352,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#404040",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -379,7 +379,7 @@
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": false,
-            "logo": true,
+            "logo": false,
             "showBrand": false,
             "collapsed": false,
             "hideButtons": true
@@ -669,18 +669,18 @@
             "Theme"
           ],
           "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "font-size": "19px"
+            }
+          },
           "_anchor": "content1-5",
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "7",
             "bgColor": "#fff"
           },
-          "text": "<br><div><br></div><div>Hey there, I am a 11th grade student from Bangladesh. I love to do coding and illustration during my free time. I use different frameworks and want to explore various techs. I love open source and contributing to them but if a paid software suits my needs and helps me more than the others, I'd definitely use that. Aside from these, I like anime, CG, cartoons, reading books and writing. Recently I'm busy with a character, Kizubo(The cartoony guy up there.)</div><div><br></div><div>Okay then, Jā matane :)</div><div><br></div><div><br></div><div><a href=\"http://twitter.com/arbanhossain\" target=\"_blank\">Twitter</a></div><div><a href=\"contact.html\">Contact me</a></div>",
-          "_styles": {
-            "DIV": {
-              "font-size": "19px"
-            }
-          }
+          "text": "<br><div><br></div><div>Hey there, I am a 11th grade student from Bangladesh. I love to do coding and illustration during my free time. I use different frameworks and want to explore various techs. I love open source and contributing to them but if a paid software suits my needs and helps me more than the others, I'd definitely use that. Aside from these, I like anime, CG, cartoons, reading books and writing. Recently I'm busy with a character, Kizubo(The cartoony guy up there.)</div><div><br></div><div>Okay then, Jā matane :)</div><div><br></div><div><br></div><div><a href=\"http://twitter.com/arbanhossain\" target=\"_blank\">Twitter</a></div><div><a href=\"contact.html\">Contact me</a></div>"
         },
         {
           "_tags": [
@@ -840,6 +840,14 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "36px"
+            }
+          },
           "_anchor": "form1-o",
           "_params": {
             "labelsColor": "#232323",
@@ -885,15 +893,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title SPAN": {
-              "font-size": "36px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>"
         }
       ]
     },
