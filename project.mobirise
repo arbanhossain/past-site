@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#0040ff",
+        "primaryColor": "#2969b0",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -22,502 +22,19 @@
       }
     },
     "versionFirst": "3.10.1",
-    "uniqCompNum": 34,
+    "uniqCompNum": 29,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/pihvoll1.jpg",
-    "noImageResize": "true"
+    "noImageResize": "true",
+    "path": "file:///E:/ENJOY%20ARBAN'S%20WORLD/Visual/mobirise",
+    "screenshot": "screenshot.png"
   },
   "pages": {
-    "me.html": {
-      "settings": {
-        "title": "About me | Arban Hossain",
-        "order": 3,
-        "meta_descr": "Arban Hossain, arban, about arban, about arban hossain"
-      },
-      "components": [
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-6",
-          "_params": {
-            "paddingTop": "7",
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>.</p>"
-        },
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "48px"
-            },
-            ".navbar-toggler": {
-              "color": "#434343"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#434343"
-            },
-            ".link, .dropdown-item": {
-              "color": "#434343",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-family": "'Lora', serif"
-            },
-            ".link": {
-              "font-size": "1.1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.191rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#434343",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#0040ff!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-1",
-          "_params": {
-            "bgColor": "#ffffff",
-            "fontSize": "1.1",
-            "fontName": {
-              "name": "Lora",
-              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "css": "'Lora', serif"
-            },
-            "fontColor": "#434343",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/kizubo3x-63x128-85.png",
-              "height": 128,
-              "alt": "Arban",
-              "link": "index.html",
-              "title": "Arban Hossain",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">arban</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustrations.html\">illustrations</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">codes</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-5",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "Hey there, thanks for checking out my site. I'm a 11th Grade student in Bangladesh. I started coding at 12. Since then I liked &nbsp;I like to illustrate and code in my free time and I love doing those. I'm not a professional or something like that, but I'd like to help and collaborate with you if needed (of course when I have time, I usually have). I've also tried to make some programs and games. It'd be great if you took a look at them. And finally, have a big smile, laugh out loud and be happy :) .",
-          "_styles": {
-            "DIV": {
-              "font-size": "20px"
-            }
-          }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "font-size": "24px"
-            },
-            ".btn": {
-              "font-size": "22px"
-            }
-          },
-          "_anchor": "form1-9",
-          "_params": {
-            "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
-          },
-          "title": "Talk with me",
-          "subtitle": "",
-          "form": {
-            "action": "arbanhossain@gmail.com",
-            "alerts": {
-              "success": "Yep! I got that message."
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Name"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Your email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "You"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Tell me*"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
-              "color": "#7c706b"
-            }
-          },
-          "_anchor": "footer1-8",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
-        }
-      ]
-    },
-    "illustrations.html": {
-      "settings": {
-        "main": true,
-        "title": "Arban Hossain",
-        "meta_descr": "arban hossain. arban hossain illustration, arban design",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 2
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "48px"
-            },
-            ".navbar-toggler": {
-              "color": "#434343"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#434343"
-            },
-            ".link, .dropdown-item": {
-              "color": "#434343",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-family": "'Lora', serif"
-            },
-            ".link": {
-              "font-size": "1.1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.191rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#434343",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#0040ff!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-1",
-          "_params": {
-            "bgColor": "#ffffff",
-            "fontSize": "1.1",
-            "fontName": {
-              "name": "Lora",
-              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "css": "'Lora', serif"
-            },
-            "fontColor": "#434343",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/kizubo3x-63x128-85.png",
-              "height": 128,
-              "alt": "Arban",
-              "link": "index.html",
-              "title": "Arban Hossain",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">arban</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustrations.html\">illustrations</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">codes</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-v",
-          "_params": {
-            "paddingTop": "7",
-            "paddingBottom": "0",
-            "bgColor": "#fff"
-          },
-          "text": "<p>These are some illustrations I made. You can also check out my <a href=\"doodles.html\">daily doodles</a>.</p>",
-          "_styles": {
-            "P": {
-              "font-size": "20px"
-            }
-          }
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_styles": {
-            "LI": {
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
-              "color": "#eb6b56"
-            }
-          },
-          "_params": {
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "images": [
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/cheesehigh-2000x1500-29-2000x1500-97.png",
-                "image": "@PROJECT_PATH@/assets/images/cheesehigh-2000x1500-29.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/stampnederlandportraithigh-01-2000x3477-45-2000x3477-22.png",
-                "image": "@PROJECT_PATH@/assets/images/stampnederlandportraithigh-01-2000x3477-45.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/neontypehigh-2000x1500-73-2000x1500-38.png",
-                "image": "@PROJECT_PATH@/assets/images/neontypehigh-2000x1500-73.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/pikachuhigh-2000x1500-58-2000x1500-75.png",
-                "image": "@PROJECT_PATH@/assets/images/pikachuhigh-2000x1500-58.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/matchporthigh-2000x3158-23-2000x3158-32.png",
-                "image": "@PROJECT_PATH@/assets/images/matchporthigh-2000x3158-23.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/sailhigh-2000x1492-12-2000x1492-84.png",
-                "image": "@PROJECT_PATH@/assets/images/sailhigh-2000x1492-12.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/seahigh-2000x1608-73-2000x1608-52.png",
-                "image": "@PROJECT_PATH@/assets/images/seahigh-2000x1608-73.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/calchigh-800x600.png",
-                "image": "@PROJECT_PATH@/assets/images/calchigh.png",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": "0",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": true
-          },
-          "_anchor": "gallery2-3",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
-              "color": "#7c706b"
-            }
-          },
-          "_anchor": "footer1-8",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
-        }
-      ]
-    },
     "doodles.html": {
       "settings": {
         "title": "Daily Doodles | Arban Hossain",
-        "order": 4
+        "meta_descr": "arban, arban hossain, arban doodles, arban hossain doodles",
+        "order": 3
       },
       "components": [
         {
@@ -533,7 +50,7 @@
           "_anchor": "footer1-f",
           "_params": {
             "paddingTop": "4",
-            "paddingBottom": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -543,7 +60,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
+          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
         },
         {
           "_inherit": "menu",
@@ -561,15 +78,15 @@
               "font-size": "48px"
             },
             ".navbar-toggler": {
-              "color": "#434343"
+              "color": "#404040"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#434343"
+              "background-color": "#404040"
             },
             ".link, .dropdown-item": {
-              "color": "#434343",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-family": "'Lora', serif"
+              "color": "#404040",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "font-family": "'Roboto Slab', serif"
             },
             ".link": {
               "font-size": "1.1rem"
@@ -590,7 +107,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#434343",
+              "color": "#404040",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -600,20 +117,20 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#0040ff!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-w",
+          "_anchor": "ext_menu-l",
           "_params": {
             "bgColor": "#ffffff",
             "fontSize": "1.1",
             "fontName": {
-              "name": "Lora",
-              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "css": "'Lora', serif"
+              "name": "Roboto Slab",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "css": "'Roboto Slab', serif"
             },
-            "fontColor": "#434343",
+            "fontColor": "#404040",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": false,
@@ -625,12 +142,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/kizubo3x-63x128-85.png",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
-              "alt": "Arban",
-              "link": "index.html",
-              "title": "Arban Hossain",
-              "linkInNewWindow": false
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -639,7 +154,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">arban</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustrations.html\">illustrations</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">codes</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustration.html\">illustration</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"codes.html\">codes</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -741,6 +256,16 @@
                 "thumb": "@PROJECT_PATH@/assets/images/uigreenhigh-3333x2500-74.png",
                 "image": "@PROJECT_PATH@/assets/images/uigreenhigh.png",
                 "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/calchigh-800x600.png",
+                "image": "@PROJECT_PATH@/assets/images/calchigh.png",
+                "caption": "Type caption here",
                 "active": true
               }
             ],
@@ -771,86 +296,212 @@
         }
       ]
     },
-    "index.html": {
+    "illustration.html": {
       "settings": {
+        "main": true,
         "title": "Arban Hossain",
-        "meta_descr": "Arban Hossain, arban, kizubo, arban hossain dev, gamedev",
-        "order": 1
+        "meta_descr": "arbanhossain, arban hossain, arban games",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
       },
       "components": [
         {
+          "_inherit": "menu",
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-n",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>.</p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
           "_styles": {
-            "P": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "DIV": {
-              "text-align": "center",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
               "font-size": "48px"
             },
-            "B": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "48px"
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "font-family": "'Roboto Slab', serif"
+            },
+            ".link": {
+              "font-size": "1.4rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.516rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
             }
           },
-          "_anchor": "content1-m",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1",
           "_params": {
-            "paddingTop": "7",
-            "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#ffffff",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "Roboto Slab",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "css": "'Roboto Slab', serif"
+            },
+            "fontColor": "#404040",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
           },
-          "text": "Arban Hossain"
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/kizubo3x-63x128-85.png",
+              "height": 128,
+              "alt": "Arban",
+              "link": "index.html",
+              "title": "Arban Hossain",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">arban</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustration.html\">illustration</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"codes.html\">codes</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
+          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
+          "_name": "gallery2",
           "_styles": {
-            "P": {
-              "font-size": "20px"
+            "LI": {
+              "font-family": "'Indie Flower', cursive",
+              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
+              "color": "#eb6b56"
             }
           },
-          "_anchor": "content1-o",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cheesehigh-2000x1500-29-2000x1500-97.png",
+                "image": "@PROJECT_PATH@/assets/images/cheesehigh-2000x1500-29.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/stampnederlandportraithigh-01-2000x3477-45-2000x3477-22.png",
+                "image": "@PROJECT_PATH@/assets/images/stampnederlandportraithigh-01-2000x3477-45.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/neontypehigh-2000x1500-73-2000x1500-38.png",
+                "image": "@PROJECT_PATH@/assets/images/neontypehigh-2000x1500-73.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pikachuhigh-2000x1500-58-2000x1500-75.png",
+                "image": "@PROJECT_PATH@/assets/images/pikachuhigh-2000x1500-58.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/matchporthigh-2000x3158-23-2000x3158-32.png",
+                "image": "@PROJECT_PATH@/assets/images/matchporthigh-2000x3158-23.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sailhigh-2000x1492-12-2000x1492-84.png",
+                "image": "@PROJECT_PATH@/assets/images/sailhigh-2000x1492-12.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/seahigh-2000x1608-73-2000x1608-52.png",
+                "image": "@PROJECT_PATH@/assets/images/seahigh-2000x1608-73.png",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
           },
-          "text": "<p>Hey there, I am a 11th grade student from Bangladesh. I love to do coding and illustration during my free time. I use different frameworks and want to explore various techs. I love open source and contributing to them but if a paid software suits my needs and helps me more than the others, I'd definitely use that. Aside from these, I like anime, CG, cartoons, reading books and writing. Recently I'm busy with a character, Kizubo(The cartoony guy up there.) </p><p>Okay then, Jā matane :)</p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-u",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<ul><li><a href=\"me.html\">Contact me</a></li><li><a href=\"http://twitter.com/arbanhossain\" target=\"_blank\">My twitter</a>.</li></ul>"
+          "_anchor": "gallery2-3",
+          "articleLayout": false,
+          "allItem": "All"
         },
         {
           "_tags": [
@@ -875,110 +526,15 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
-        },
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "48px"
-            },
-            ".navbar-toggler": {
-              "color": "#434343"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#434343"
-            },
-            ".link, .dropdown-item": {
-              "color": "#434343",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-family": "'Lora', serif"
-            },
-            ".link": {
-              "font-size": "1.1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.191rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#434343",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#0040ff!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-1",
-          "_params": {
-            "bgColor": "#ffffff",
-            "fontSize": "1.1",
-            "fontName": {
-              "name": "Lora",
-              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "css": "'Lora', serif"
-            },
-            "fontColor": "#434343",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": false,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/kizubo3x-63x128-85.png",
-              "height": 128,
-              "alt": "Arban",
-              "link": "index.html",
-              "title": "Arban Hossain",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">arban</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustrations.html\">illustrations</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">codes</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
         }
       ]
     },
-    "codes.html": {
+    "index.html": {
       "settings": {
-        "title": "Codes, Apps and Games | Arban Hossain",
-        "meta_descr": "Arban Hossain, Arban code, arban hossain code, arban hossain games"
+        "title": "About me | Arban Hossain",
+        "meta_descr": "arban, arban hossain, arban hossain games, arban games",
+        "order": 1
       },
       "components": [
         {
@@ -997,15 +553,15 @@
               "font-size": "48px"
             },
             ".navbar-toggler": {
-              "color": "#434343"
+              "color": "#404040"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#434343"
+              "background-color": "#404040"
             },
             ".link, .dropdown-item": {
-              "color": "#434343",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-family": "'Lora', serif"
+              "color": "#404040",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "font-family": "'Roboto Slab', serif"
             },
             ".link": {
               "font-size": "1.1rem"
@@ -1026,7 +582,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#434343",
+              "color": "#404040",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1036,20 +592,20 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#0040ff!important"
+              "color": "#2969b0!important"
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-w",
+          "_anchor": "ext_menu-4",
           "_params": {
             "bgColor": "#ffffff",
             "fontSize": "1.1",
             "fontName": {
-              "name": "Lora",
-              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "css": "'Lora', serif"
+              "name": "Roboto Slab",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "css": "'Roboto Slab', serif"
             },
-            "fontColor": "#434343",
+            "fontColor": "#404040",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": false,
@@ -1061,12 +617,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/kizubo3x-63x128-85.png",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
-              "alt": "Arban",
-              "link": "index.html",
-              "title": "Arban Hossain",
-              "linkInNewWindow": false
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1075,7 +629,58 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">arban</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustrations.html\">illustrations</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">codes</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustration.html\">illustration</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"codes.html\">codes</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-6",
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "<span style=\"font-weight: normal;\">Arban Hossain</span>",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-5",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "7",
+            "bgColor": "#fff"
+          },
+          "text": "<br><div><br></div><div>Hey there, I am a 11th grade student from Bangladesh. I love to do coding and illustration during my free time. I use different frameworks and want to explore various techs. I love open source and contributing to them but if a paid software suits my needs and helps me more than the others, I'd definitely use that. Aside from these, I like anime, CG, cartoons, reading books and writing. Recently I'm busy with a character, Kizubo(The cartoony guy up there.)</div><div><br></div><div>Okay then, Jā matane :)</div><div><br></div><div><br></div><div><a href=\"http://twitter.com/arbanhossain\" target=\"_blank\">Twitter</a></div><div><a href=\"contact.html\">Contact me</a></div>",
+          "_styles": {
+            "DIV": {
+              "font-size": "19px"
+            }
+          }
         },
         {
           "_tags": [
@@ -1087,7 +692,7 @@
               "color": "#7c706b"
             }
           },
-          "_anchor": "footer1-x",
+          "_anchor": "footer1-8",
           "_params": {
             "paddingTop": "4",
             "paddingBottom": "4",
@@ -1100,7 +705,348 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "<br><br><br><br><br><br><br><br>All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
+          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
+        }
+      ]
+    },
+    "contact.html": {
+      "settings": {
+        "title": "Contact | Arban Hossain",
+        "meta_descr": "arban hossain, arban, arban hossain contact, arban contact",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "48px"
+            },
+            ".navbar-toggler": {
+              "color": "#404040"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#404040"
+            },
+            ".link, .dropdown-item": {
+              "color": "#404040",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "font-family": "'Roboto Slab', serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#404040",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-l",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "Roboto Slab",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "css": "'Roboto Slab', serif"
+            },
+            "fontColor": "#404040",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">arban</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustration.html\">illustration</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"codes.html\">codes</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#7c706b"
+            }
+          },
+          "_anchor": "footer1-m",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-o",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": false
+          },
+          "title": "<span style=\"font-weight: normal;\">Tell me Something</span>",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "arbanhossain@gmail.com",
+            "alerts": {
+              "success": "I got the message!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-white\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "36px"
+            }
+          }
+        }
+      ]
+    },
+    "codes.html": {
+      "settings": {
+        "title": "Codes | Arban Hossain",
+        "meta_descr": "arban hossain, arban, arban games, arban codes, arban hossain codes, arban hossain games"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "48px"
+            },
+            ".navbar-toggler": {
+              "color": "#404040"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#404040"
+            },
+            ".link, .dropdown-item": {
+              "color": "#404040",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "font-family": "'Roboto Slab', serif"
+            },
+            ".link": {
+              "font-size": "1.1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.191rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#404040",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2969b0!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-l",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1.1",
+            "fontName": {
+              "name": "Roboto Slab",
+              "url": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700",
+              "css": "'Roboto Slab', serif"
+            },
+            "fontColor": "#404040",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": false,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">arban</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"illustration.html\">illustration</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"me.html\">about me</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\">contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"codes.html\">codes</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-r",
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-s",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "There isn't anyting fancy to show here. Just a couple of projects I did. I have made a lot o' prototypes but i don't want to bloat the site with those. I will include just some of them I admire."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#7c706b"
+            }
+          },
+          "_anchor": "footer1-p",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "All contents (c) 2016 Arban Hossain, unless otherwise noted.<br>Proudly created with <a href=\"http://mobirise.com\" target=\"_blank\">Mobirise</a>. Powerfully presented by <a href=\"http://github.io\" target=\"_blank\">Github</a>."
         }
       ]
     }
