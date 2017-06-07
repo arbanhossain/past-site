@@ -110,8 +110,8 @@
 	function getRandom(min, max) {
 		return Math.floor(Math.random() * (max-min)) + min;
 	}
-	document.getElementById("quote").innerHTML = '"' + quotes[i] + '"';
-	document.getElementById("author").innerHTML = "- " + authors[i];
+	document.getElementById("quote").innerHTML = '"' + list[i].quote + '"';
+	document.getElementById("author").innerHTML = "- " + list[i].author;
 	
 </script>
 
