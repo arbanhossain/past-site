@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="arban, arban hossain, arban hossain codes, arban codes, arban hossain projects">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Projects | Arban Hossain</title>
+	<style type="text/css">
+		.sidenav {
+			font-family: "Lora", serif;
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: #fff;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+		}
+
+		.sidenav a {
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			font-size: 19px;
+			color: #474747;
+			display: block;
+			transition: 0.3s;
+		}
+
+		.sidenav a:hover, .offcanvas a:focus{
+			color: #111;
+		}
+
+		.sidenav .closebtn {
+			text-align: right;
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+		}
+
+		@media screen and (max-height: 450px) {
+			.sidenav {padding-top: 15px;}
+			.sidenav a {font-size: 18px;}
+		}
+	</style>
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">About</a>
+		<a href="projects.html">Projects</a>
+		<a href="design.html">Designs</a>
+	</div>
+	<!-- Use any element to open the sidenav -->
+	<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+	<div class="content">
+		<h1 class="name-header" style="font-size: 32px;">Projects</h1>
+	</div>
+	<div class="project-container">
+		<div class="project">
+			<h2>Inspirona</h2>
+			<p>
+				A random quote displayer using very basic functionalities of Javascript.<br>
+				Source: <a href="https://github.com/arbanhossain/inspirona" id="linked" target="_blank">Available</a>
+				<br>
+				<a href="https://arbanhossain.github.io/inspirona" id="linked" target="_blank">Project Site</a>
+			</p>
+		</div>
+		<div class="project">
+			<h2>Games</h2>
+			<p>
+				Random games I make go here.<br>
+				Source: <a href="https://github.com/arbanhossain/olytrem-unity" id="linked" target="_blank">Olytrem</a>
+				<br>
+				<a href="https://arban.itch.io" id="linked" target="_blank">Project Site</a>
+			</p>
+		</div>
+	</div>
+	<footer class="footer">
+		&#9400 Arban Hossain 2017<br>
+		Powerfully hosted via <a href="https://pages.github.com/" id="linked" target="_blank">Github</a>
+	</footer>
+
+<script type="text/javascript">
+	/* Set the width of the side navigation to 250px */
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	} 
+</script>
+
+</body>
+</html>

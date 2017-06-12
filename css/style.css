@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+    height: 100%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-size: 19px;
+    color: #1e1e1e;
+    line-height: 150%;
+}
+
+.name-header{
+	font-family: "Lora", serif;
+    font-weight: lighter;
+	text-align: center;
+    font-size: 48px;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    color: #1e1e1e;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+	font-family: "Lora", serif;
+	text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #474747;
+    text-align: center;
+    width: 10px;
+    margin: 0 auto;
+    padding: 25px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    /*color: green;*/
+}
+
+.topnav #home{
+    float: left;
+}
+
+#linked {
+    color: #2969b0;
+    text-decoration: none;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+    padding-bottom: none;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-size: 15px;
+}
+/*For the projects to display*/
+.project-container {
+    
+}
+
+.project {
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: left;
+    font-family: "Lora", serif;
+    font-size: 19px;
+    /*padding-bottom: 3%;*/
+}
+.project h2 {
+    font-size: 24px;
+}
+.project p {
+    padding-bottom: 3%;
+}
+.project p a {
+    text-decoration: none;
+}
