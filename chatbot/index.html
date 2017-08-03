@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>RiveScript Playground</title>
+	<link rel="stylesheet" type="text/css" href="RiveScript%20Playground_files/playground.css">
+</head>
+<body onload="click_btn_function()">
+
+
+
+<form id="playground-form">
+<div id="container">
+
+	<header style="display: none;">
+		<span>The RiveScript Playground</span>
+
+		<nav>
+			<ul>
+				<li><button type="button" id="run">Run</button></li>
+				<li><button type="button" id="share">Share</button></li>
+				<li><button type="button" id="about">About</button></li>
+				<li id="sharing">
+					Your share link has been created:
+					<input size="40" id="share-url" readonly="readonly" type="text">
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="editor">
+		<div class="code" style="display: none;">
+			<textarea id="code" name="rive">! version = 2.0
+
++ hello
+- Hello <span style="color: red;">human</span>.
+
++ my name is *
+- &lt;set name=&lt;formal&gt;&gt;Nice to meet you, &lt;get name&gt;.
+
++ (what is my name|who am i)
+- You're &lt;get name&gt;, right?
+
++ *
+- I don't have a reply for that.
+- Try asking that a different way.</textarea>
+		</div>
+		<div class="result">
+			<div id="dialogue">
+				<div class="history-pane">
+					<ul id="history">
+					</ul>
+				</div>
+			</div>
+			<div class="controls">
+				<input size="40" id="message" placeholder="Send a message to the bot" disabled="disabled" autocomplete="off" type="text">
+				<button type="submit">Send</button>
+			</div>
+			<div id="debug-pane">
+				<ul id="debug">
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer style="display: none;">
+		<div class="pull-right">
+			RiveScript.js v<span id="rs-version">1.17.2</span> —
+			Copyright © 2016 <a href="https://www.rivescript.com/">RiveScript.com</a>
+		</div>
+
+		<strong>Options:</strong>
+		<label>
+			<input id="opt-debug" value="true" type="checkbox"> Debug Mode
+		</label>
+		<label>
+			<input id="opt-utf8" value="false" type="checkbox"> UTF-8 Mode
+		</label>
+	</footer>
+
+</div>
+</form>
+
+
+
+
+<script src="RiveScript%20Playground_files/jquery-3.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="RiveScript%20Playground_files/rivescript.js"></script>
+<script type="text/javascript" src="RiveScript%20Playground_files/rivescript-contrib-coffeescript.js"></script>
+<script src="RiveScript%20Playground_files/playground.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#code").load("rive.txt");
+		if($("#opt-utf8").is(':checked')){
+			
+		}
+		else
+			$("#opt-utf8").click();
+		setTimeout(function() {
+        $('#run').click();
+    }, 500);
+	});
+
+	/*jQuery(function(){
+      jQuery('#run').click();
+    });
+    jQuery(function(){
+      jQuery('#opt-utf8').click();
+    });*/
+</script>
+
+
+
+
+
+</body></html>
