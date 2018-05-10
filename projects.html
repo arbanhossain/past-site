@@ -1,108 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta name="description" content="arban, arban hossain, arban hossain codes, arban codes, arban hossain projects">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Projects | Arban Hossain</title>
-	<style type="text/css">
-		.sidenav {
-			font-family: "Lora", serif;
-			height: 100%;
-			width: 0;
-			position: fixed;
-			z-index: 1;
-			top: 0;
-			left: 0;
-			background-color: #fff;
-			overflow-x: hidden;
-			transition: 0.5s;
-			padding-top: 60px;
-		}
-
-		.sidenav a {
-			padding: 8px 8px 8px 32px;
-			text-decoration: none;
-			font-size: 19px;
-			color: #474747;
-			display: block;
-			transition: 0.3s;
-		}
-
-		.sidenav a:hover, .offcanvas a:focus{
-			color: #111;
-		}
-
-		.sidenav .closebtn {
-			text-align: right;
-			position: absolute;
-			top: 0;
-			right: 25px;
-			font-size: 36px;
-			margin-left: 50px;
-		}
-
-		@media screen and (max-height: 450px) {
-			.sidenav {padding-top: 15px;}
-			.sidenav a {font-size: 18px;}
-		}
-	</style>
 </head>
+
 <body>
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="index.html">About</a>
-		<a href="projects.html">Projects</a>
-		<a href="design.html">Designs</a>
+	<div class="nav">
+		<ul>
+			<li class="home">
+				<a href="index.html">About</a>
+			</li>
+			<li class="design">
+				<a href="design.html">Designs</a>
+			</li>
+			<li class="projects">
+				<a class="active" href="projects.html">Projects</a>
+			</li>
+		</ul>
 	</div>
-	<!-- Use any element to open the sidenav -->
-	<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
 	<div class="content">
 		<h1 class="name-header" style="font-size: 32px;">Projects</h1>
 	</div>
 	<div class="project-container">
+		<h2 style="font-family: 'Lora', serif;">You can take a look at my
+			<a id="linked" target="_blank" href="https://github.com/arbanhossain">Github</a> Profile.</h2>
+		<br>
 		<div class="project">
 			<h2>Inspirona</h2>
 			<p>
-				A random quote displayer using very basic functionalities of Javascript.<br>
-				Source: <a href="https://github.com/arbanhossain/inspirona" id="linked" target="_blank">Available</a>
+				A random quote displayer using very basic functionalities of Javascript.
+				<br> Source:
+				<a href="https://github.com/arbanhossain/js-experiments/tree/gh-pages/inspirona" id="linked" target="_blank">Available at Github</a>
 				<br>
-				<a href="https://arbanhossain.github.io/inspirona" id="linked" target="_blank">Project Site</a>
+				<a href="https://arbanhossain.github.io/js-experiments/inspirona" id="linked" target="_blank">Project Site</a>
 			</p>
 		</div>
 		<div class="project">
-			<h2>Chatbot</h2>
+			<h2>Tabbed</h2>
 			<p>
-				A chatbot written in Rivescript and hosted on the web for Bengalis. Conversations are done in Bengali.<br>
-				Source: Not available yet<br>
-				<a href="https://arbanhossain.github.io/chatbot" id="linked" target="_blank">Project Site</a>
+				A New Tab page for desktop browsers. Focuses on being minimalistic and relaxing.
+				<br> Source:
+				<a href="https://github.com/arbanhossain/js-experiments/tree/gh-pages/tabbed" id="linked" target="_blank">Available at Github</a>
+				<br>
+				<a href="https://arbanhossain.github.io/js-experiments/tabbed" id="linked" target="_blank">Project Site</a>
 			</p>
 		</div>
+		<div class="project">
+			<h2>qittoList</h2>
+			<p>
+				To-do app for command-line intterfaces. Built to be productive
+				<br> Source:
+				<a href="https://github.com/arbanhossain/qittolist" id="linked" target="_blank">Available at Github</a>
+				<br>
+			</p>
+		</div>
+		<div class="project">
+			<h2>SuPassMan</h2>
+			<p>
+				An old password manager, with Electron. Hope to rewrite it in future.
+				<br> Source:
+				<a href="https://github.com/arbanhossain/SuPassMan" id="linked" target="_blank">Available at Github</a>
+				<br>
+			</p>
+		</div>
+
 		<div class="project">
 			<h2>Codepen Projects</h2>
 			<p>
-				Random small projects on codepen.<br>
+				Random small projects on codepen.
+				<br>
 				<a href="https://codepen.io/arbanhossain" id="linked" target="_blank">Codepen Profile</a>
 			</p>
 		</div>
 	</div>
 	<footer class="footer">
-		&#9400 Arban Hossain 2017<br>
-		Powerfully hosted via <a href="https://pages.github.com/" id="linked" target="_blank">Github</a>
+		&#9400 Arban Hossain
+		<br> Made with ♥
+		<br> Powerfully hosted via
+		<a href="https://pages.github.com/" id="linked" target="_blank">Github</a>
 	</footer>
 
-<script type="text/javascript">
-	/* Set the width of the side navigation to 250px */
-	function openNav() {
-	    document.getElementById("mySidenav").style.width = "250px";
-	}
 
-	/* Set the width of the side navigation to 0 */
-	function closeNav() {
-	    document.getElementById("mySidenav").style.width = "0";
-	} 
-</script>
 
 </body>
+
 </html>

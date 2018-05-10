@@ -3,161 +3,84 @@
 -->
 <!DOCTYPE html>
 <html>
-<meta name="description" content="arban, arban hossain, arban hossain designs, arban illustrations, arban designs">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Designs | Arban Hossain</title>
-<link rel="stylesheet" href="css/w3.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-		.sidenav {
-			font-family: "Lora", serif;
-			height: 100%;
-			width: 0;
-			position: fixed;
-			z-index: 1;
-			top: 0;
-			left: 0;
-			background-color: #fff;
-			overflow-x: hidden;
-			transition: 0.5s;
-			padding-top: 60px;
-		}
 
-		.sidenav a {
-			padding: 8px 8px 8px 32px;
-			text-decoration: none;
-			font-size: 19px;
-			color: #474747;
-			display: block;
-			transition: 0.3s;
-		}
+<head>
+  <meta name="description" content="arban, arban hossain, arban hossain designs, arban illustrations, arban designs">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Designs | Arban Hossain</title>
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/style.css">
 
-		.sidenav a:hover, .offcanvas a:focus{
-			color: #111;
-		}
-
-		.sidenav .closebtn {
-			text-align: right;
-			position: absolute;
-			top: 0;
-			right: 25px;
-			font-size: 36px;
-			margin-left: 50px;
-		}
-
-		@media screen and (max-height: 450px) {
-			.sidenav {padding-top: 15px;}
-			.sidenav a {font-size: 18px;}
-		}
-	img {
-		margin-bottom: -7px;
-		cursor: pointer;
-	}
-	.w3-row-padding img {margin-bottom: 12px}
-</style>
-<body>
-  <div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="index.html">About</a>
-		<a href="projects.html">Projects</a>
-		<a href="design.html">Designs</a>
-	</div>
-	<!-- Use any element to open the sidenav -->
-	<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
-
-	<div class="content">
-		<h1 class="name-header" style="font-size: 32px;">Designs</h1>
-	</div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
-
-
-<!-- Photo Grid -->
-<div class="w3-row" id="myGrid" style="margin-bottom:128px; padding-top: 3%;">
-  <div class="w3-third">
-    <img src="images/sea.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/desert.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/calc.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/EatBurger.png" style="width:100%" onclick="onClick(this)">
-  </div>
-
-  <div class="w3-third">
-    <img src="images/beats.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/Pikachu.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/Cheese.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/Sail.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/uigreen.png" style="width:100%" onclick="onClick(this)">
-  </div>
-
-  <div class="w3-third">
-    <img src="images/MatchPort.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/NeonType.png" style="width:100%" onclick="onClick(this)">
-    <img src="images/coffee.png" style="width:100%" onclick="onClick(this)">
-  </div>
-</div>
-
-<div id="modal01" class="w3-modal" onclick="this.style.display='none'" style="background: rgba(0, 0, 0, 0.75);">
-  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-  <div class="w3-modal-content w3-animate-zoom">
-    <img id="img01" style="max-width: 100%">
-  </div>
-</div>
-
-<!-- End Page Content -->
-</div>
-
-<!-- Footer -->
-	<footer class="footer">
-		&#9400 Arban Hossain 2017<br>
-		Powerfully hosted via <a href="https://pages.github.com/" id="linked" target="_blank">Github</a>
-	</footer>
-
-<!--Start of Scripts-->
-<script>
-// Toggle grid padding
-function myFunction() {
-    var x = document.getElementById("myGrid");
-    if (x.className === "w3-row") {
-        x.className = "w3-row-padding";
-    } else { 
-        x.className = x.className.replace("w3-row-padding", "w3-row");
+  <style>
+    img {
+      padding-bottom: -1%;
+      margin-bottom: -1%;
     }
-}
+  </style>
+</head>
 
-// Open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.width = "100%";
-    document.getElementById("mySidebar").style.display = "block";
-}
+<body>
+  <div class="nav">
+    <ul>
+      <li class="home">
+        <a href="index.html">About</a>
+      </li>
+      <li class="design">
+        <a class="active" href="design.html">Designs</a>
+      </li>
+      <li class="projects">
+        <a href="projects.html">Projects</a>
+      </li>
+    </ul>
+  </div>
+  <div class="content">
+    <h1 class="name-header" style="font-size: 32px;">Designs</h1>
+    <p>You might want to use 'View Image' or 'Open image in new tab' to view the illustrations on a larger scale</p>
+    <br>
+  </div>
 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
 
-function view(imgsrc) {
-      viewwin = window.open(imgsrc,'viewwin', 'width=800,height=600'); 
-   }
-}
 
-/* Set the width of the side navigation to 250px */
-	function openNav() {
-	    document.getElementById("mySidenav").style.width = "250px";
-	}
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-content" style="max-width:1500px">
 
-	/* Set the width of the side navigation to 0 */
-	function closeNav() {
-	    document.getElementById("mySidenav").style.width = "0";
-9}
 
-	function onClick(element) {
-	  document.getElementById("img01").src = element.src;
-	  document.getElementById("modal01").style.display = "block";
-	} 
-</script>
-<!--End of Scripts
--------------------------------->
+    <!-- Photo Grid -->
+    <div class="w3-row">
+      <div class="w3-third">
+        <img src="images/sea.png" style="width:100%">
+        <img src="images/desert.png" style="width:100%">
+        <img src="images/calc.png" style="width:100%">
+        <img src="images/EatBurger.png" style="width:100%">
+      </div>
+
+      <div class="w3-third">
+        <img src="images/beats.png" style="width:100%">
+        <img src="images/Pikachu.png" style="width:100%">
+        <img src="images/Cheese.png" style="width:100%">
+        <img src="images/Sail.png" style="width:100%">
+        <img src="images/uigreen.png" style="width:100%">
+      </div>
+
+      <div class="w3-third">
+        <img src="images/MatchPort.png" style="width:100%">
+        <img src="images/NeonType.png" style="width:100%">
+        <img src="images/coffee.png" style="width:100%">
+      </div>
+    </div>
+
+    <!-- End Page Content -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &#9400 Arban Hossain
+    <br> Made with ♥
+    <br> Powerfully hosted via
+    <a href="https://pages.github.com/" id="linked" target="_blank">Github</a>
+  </footer>
 
 </body>
+
 </html>
