@@ -71,13 +71,20 @@ p {
     line-height: 150%;
 }
 
+.content h3 {
+    font-family: "Lora", serif;
+    font-weight: lighter;
+	text-align: center;
+    color: #1e1e1e;
+}
+
 .name-header{
 	font-family: "Lora", serif;
     font-weight: lighter;
 	text-align: center;
     font-size: 48px;
     padding-top: 0;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     color: #1e1e1e;
 }
 
