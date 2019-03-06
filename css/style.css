@@ -73,22 +73,20 @@ p {
 
 .content h3 {
     font-family: "Lora", serif;
+    font-size: 1.7em;
     font-weight: lighter;
-	text-align: center;
     color: #1e1e1e;
 }
 
 .name-header{
 	font-family: "Lora", serif;
     font-weight: lighter;
-	text-align: center;
-    font-size: 48px;
+    font-size: 4em;
     padding-top: 0;
-    padding-bottom: 1%;
-    color: #1e1e1e;
+    color: #516496;
 }
 
-#linked {
+.linked {
     color: #2969b0;
     text-decoration: none;
 }
